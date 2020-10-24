@@ -1,9 +1,26 @@
 body{
-    background-color: rgb(255, 187, 0);
-    text-decoration-color: black;
+    /*background-color: rgb(255, 187, 0);*/
+    background-color: white;
+    color: orange;
+} 
+
+html{
+    cursor: url("soupcan.jpg"), auto;
 }
 
 h1{
     text-align: center;
     font-size: 340%;
+}
+
+.bowl{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    position:absolute;
+    bottom:0; 
+    height: 10;
+    width: 20;
+    
 }
